@@ -1,0 +1,21 @@
+{
+    "name": "acid-solutions/menufactory",
+    "description": "A tool to create cool menu with PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel LUCAS",
+            "email": "contact@acid.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+	"illuminate/support": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "AcidSolutions\\MenuFactory": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
