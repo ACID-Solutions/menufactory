@@ -7,12 +7,12 @@ Edit app/config/app.php
 Add
 ```php
 // 'providers'
-'Freyskeyd\MenuFactory\MenuFactoryServiceProvider',
+'AcidSolutions\MenuFactory\MenuFactoryServiceProvider',
 ```
 And
 ```php
 // 'aliases'
-'MenuFactory' => 'Freyskeyd\MenuFactory\MenuFactoryFacade',
+'MenuFactory' => 'AcidSolutions\MenuFactory\MenuFactoryFacade',
 ```
 ### How to use
 
